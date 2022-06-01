@@ -7,12 +7,12 @@
 
 import Foundation
 
-public extension Decimal {
-    func absoluteValue() -> Decimal {
-        if self < 0 {
-            return self * -1
-        } else {
-            return self
-        }
+extension Decimal {
+  public func absoluteValue() -> Decimal {
+    if self < 0 {
+      return self * -1
+    } else {
+      return self
     }
+  }
 }
